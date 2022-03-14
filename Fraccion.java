@@ -113,21 +113,7 @@ public class Fraccion{
             
             Fraccion porcentajeresultado = new Fraccion(decimal, porcentaje);
             return porcentajeresultado; 
-
-        }
-        //Residuo dividen top, divisor bottom
-         Fraccion residuo(){
-             double quotient = this.numerador/ this.denominador;
-             double residuo = this.numerador % this.denominador;
-             
-            Fraccion residuoresultado = new Fraccion(quotient, residuo);
-            return residuoresultado; 
          }
-        
 
 
-} //Fraccion
-
-
-
-
+}
