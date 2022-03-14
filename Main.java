@@ -12,8 +12,7 @@ public class Main {
         //Operaciones Especiales
         Fraccion resPot = unCuarto.potencia(3);
         Fraccion resRaiz = unCuarto.raizCuadrada();
-        Fraccion resPorc = unCuarto.porcentajeDecimal();
-        Fraccion resResiduo = unCuarto.residuo();
+        Fraccion resPorc = unCuarto.porcentajeDecimal();//also de convertir a decimal
         
         
         
@@ -27,7 +26,6 @@ public class Main {
         System.out.println("Obj  Resultado raiz cuadrado:" + resRaiz.numerador + "/" + resRaiz.denominador);
         System.out.println("Obj  Resultado Porcentaje:" + resPorc.denominador + "%");
         System.out.println("Obj  Resultado Decimal:" + resPorc.numerador);
-        System.out.println("Obj  Resultado Residuo:" + resResiduo.denominador);
         
     }
 }
