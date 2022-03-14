@@ -1,4 +1,4 @@
-
+//Interface de Fraccion
 public interface iFraccion {
             public Fraccion dividir(double num, double denom);
             public Fraccion multiplicar(double num, double denom);
